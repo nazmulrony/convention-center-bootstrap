@@ -1,0 +1,12 @@
+@media only screen and (max-width:600px) {
+    .banner-img{
+        height: 100%;
+        transform: translateX(-450px);
+    }
+
+    .caption-container{
+        left: 0;
+        right: 0;
+    }
+    
+}
