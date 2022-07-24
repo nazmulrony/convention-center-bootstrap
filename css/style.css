@@ -1,12 +1,31 @@
+.card-btn{
+    background-color:#FFDEDE;
+}
+.card-btn:hover{
+    background-color: #FF8B8B ;
+}
+
+
+
 @media only screen and (max-width:600px) {
-    .banner-img{
-        height: 100%;
-        transform: translateX(-450px);
-    }
 
     .caption-container{
         left: 0;
         right: 0;
+        margin: 0 5px;
     }
-    
+    .caption-container p{
+        font-size: 20px;
+    }
+    .intro-row{
+        flex-direction: column-reverse;
+    }
+    .intro-row .col{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .accordian-container{
+        flex-direction: column-reverse;
+    }
+
 }
